@@ -24,18 +24,26 @@ Fully asynchronous implementation for scalability and efficiency
 🛠 Technologies & Frameworks
 
 FastAPI: API framework with async support and OpenAPI integration
+
 PostgreSQL: Database for storing user and follower data
+
 Redis: Caching and session management
+
 SQLAlchemy + Alembic : ORM and database migrations
+
 aiohttp : Async HTTP requests for social media APIs & Telegram
+
 Pydantic :Data validation and serialization
+
 Docker & Docker Compose : Containerized deployment
 
 
 
 📦 Getting Started
 1. Get the Project
-cd social_network_engagement_bot
+git clone https://github.com/captainmohsen/social_network_engagement_bot.git
+cd social-engagement-bot
+
 
 2. Run the project with Docker Compose
 docker compose up --build
